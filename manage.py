@@ -2,6 +2,7 @@
 import os
 import sys
 
+
 try:
     import MySQLdb  # noqa: F401, imported for side effect
 except ImportError:
@@ -15,3 +16,4 @@ if __name__ == "__main__":
     import django_2_2_pymysql_patch  # noqa: F401, imported for side effect
 
     execute_from_command_line(sys.argv)
+print('change')
